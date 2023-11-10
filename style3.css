@@ -1,0 +1,42 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-right:20px;
+}
+.boxkuning{
+    height: 80px;
+    background-color: yellow;
+    border:solid;
+    width:100px;
+
+}
+.boxoren{
+    width:800px;
+    background-color: orange;
+    height:80px;
+    border:solid;
+}
+.kotak{
+    height:800px;
+    width:100px;
+    border:solid;
+}
+.hijau{
+    background-color: green;
+}
+.abu {
+    width:700px;
+    background-color: grey;
+}
+.aqua {
+    width:100px;
+    background-color: aqua;
+}
+.boxbiru{
+    width:96%;
+    background-color: blue;
+    height:80px;
+    border:solid;
+}

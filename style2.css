@@ -1,0 +1,27 @@
+.topbox {
+    background-color: greenyellow;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.box {
+    height: 160px;
+}
+.box:nth-child(1) {
+    width: 160px;
+    background-color: yellow;
+}
+.box:nth-child(2) {
+    width: 800px;
+}
+.oren {
+    background-color: orange;
+}
+.biru {
+    background-color: aqua;
+}
