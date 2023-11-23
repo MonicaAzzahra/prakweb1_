@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox B 8.4</title>
+    <style>
+         header{
+            height:100px;
+            width: 1000px;
+            background-color: aquamarine;
+            text-align: center;
+            margin: 10px;
+         }
+         .container{
+            display: flex;
+         }
+         
+         aside{
+            height: 550px;
+            width: 300px;
+            background-color: greenyellow;
+            text-align: center;
+            margin: 10px;
+         }
+         article{
+            height: 530px;
+            width: 900px;
+            background-color: palevioletred;
+            text-align: center;
+            margin: 10px;
+            flex: 3;
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+         }
+         img{
+            width: 10vw;
+            height: 10vh;
+         }
+         footer{
+            height: 100px;
+            width: 1000px;
+            background-color: aquamarine;
+            text-align: center;
+            margin: 10px;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Header</header>
+    </div>
+        <div class="container">
+            <aside>aside</aside>
+            <article> 
+                <img src="images/gambar1.jpg" alt="image1">
+                <img src="images/gambar3.jpg" alt="image3">
+                <img src="images/gambar7.jpg" alt="image4">
+            </article>
+        </div>
+        <div class="container">
+            <footer> footer</footer>
+        </div>
+</body>
+</html>
